@@ -1,0 +1,36 @@
+{
+    "extends": [
+      "tslint:latest",
+      "tslint-config-prettier",
+      "tslint-config-airbnb",
+      "tslint-config-prettier"
+    ],
+    "rules": {
+      "prettier": true,
+      "one-variable-per-declaration": false,
+      "strict-boolean-expressions": false,
+      "import-name": false,
+      "function-name": false,
+      "variable-name": [
+        true,
+        "ban-keywords",
+        "check-format",
+        "allow-leading-underscore",
+        "allow-pascal-case"
+      ],
+      "only-arrow-functions": false,
+      "object-shorthand-properties-first": false,
+      "no-implicit-dependencies": false,
+      "no-submodule-imports": false,
+      "member-access": false,
+      "object-literal-sort-keys": false,
+      "max-classes-per-file": false,
+      "interface-name": {
+        "severity": "warning"
+      },
+      "jsdoc-format": [true, "check-multiline-start"],
+      "array-type": [true, "array-simple"],
+      "no-empty": [true, "allow-empty-catch"],
+      "prefer-array-literal": false
+    }
+  }
