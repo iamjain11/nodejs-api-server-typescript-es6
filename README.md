@@ -10,9 +10,13 @@ Requirements:
 
 make sure you have install some npm module globally:
 
-    $ sudo npm install -g typescript ts-node gulp gulp-cli eslint
+    $ npm install
 
-TO run the server :
+    $ sudo npm install -g typescript ts-node gulp gulp-cli eslint
+    
+    $ npm run dev
+
+To run the server :
     1. using gulp:
         $ gulp
     2. using npm:
@@ -20,5 +24,5 @@ TO run the server :
     3. using tsc:
         $ tsc
         $ node dist/
-    4. using launch in visual studio code
+    4. using launch in visual studio code:
         Launch Program
